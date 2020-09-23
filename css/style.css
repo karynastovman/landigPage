@@ -1,0 +1,27 @@
+:root {
+    --dark-color:rgb(139, 105, 137);
+    --medium-color:rgb(104, 70, 101);
+    --light-color:rgb(242, 209, 245);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    LINE-HEIGHT: 1.7;
+    color: #777;
+    padding: 2rem;
+}
+
+.header {
+    height: 95vh;
+    background-image: url('../img/pexels-bagus-pangestu-1440476.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
+}
